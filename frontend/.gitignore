@@ -1,0 +1,12 @@
+# Dependencies
+/node_modules
+
+# Production
+/build
+
+# Enviroment
+.env.local
+
+# IDEs
+.idea
+.vscode

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "ESNext",
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "strict": true,
+        "jsx": "react-jsx",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "sourceMap": true,
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["src"]
+}
